@@ -4,6 +4,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+
 /**
  * @author Lenjor
  * @version 1.0
@@ -23,7 +24,7 @@ public class MD5Util {
             return "";
         }
         try {
-            MessageDigest m = MessageDigest.getInstance("MD5Util");
+            MessageDigest m = MessageDigest.getInstance("MD5");
             m.update(inputValue.getBytes("UTF8"));
             byte s[] = m.digest();
             String result = "";

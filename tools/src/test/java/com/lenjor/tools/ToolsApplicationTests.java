@@ -1,4 +1,4 @@
-package com.lenjor.demo;
+package com.lenjor.tools;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
